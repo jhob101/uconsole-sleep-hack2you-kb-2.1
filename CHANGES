@@ -1,3 +1,8 @@
+Ver1.5
+  - detect the hack2you v2.1 keyboard (`1d50:615e`)
+  - switch off the hack2you v2.1 keyboard's trackpad light while the screen is off
+    (needs jhob101/uconsole-bb9900-keyboard firmware)
+
 Ver1.4
   - drop usage of `pyinstaller` (services are now shell wrappers, not compiled binaries)
   - replace inotify simple with inotify
